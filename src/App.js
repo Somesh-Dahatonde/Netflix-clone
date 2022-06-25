@@ -1,10 +1,17 @@
 import "./App.css";
-import Header from "./components/Header";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import Header from "./components/Header";
+import SignIn from "./components/SignIn";
+import MainPage from "./components/MainPage";
 
 function App() {
   return (
     <>
-      <Header />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/signin" element={<SignIn />} />
+      </Routes>
     </>
   );
 }

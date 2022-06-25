@@ -1,0 +1,37 @@
+.Main-div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 50vh;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+form input {
+  margin: 20px;
+  width: 100%;
+  /* height: 40px; */
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.Main-div h1 {
+  position: relative;
+  right: 35%;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+form button {
+  width: 100%;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import './header.css'
 
-function Header () {
+function Header (props) {
 
     return (
         <>
@@ -12,13 +12,17 @@ function Header () {
             <div className="sign-indiv">
                 <ul>
                     <li>
+                    
                         <select>
+                            <span>sd</span>
                             <option>English</option>
                             <option>Marathi</option>
                         </select>
                     </li>
                     <li>
-                        <button>Sign In</button>
+                        <a href={props.src}>
+                        <button src={props.src}>{props.name}</button>
+                        </a>
                     </li>
                 </ul>
             </div>

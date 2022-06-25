@@ -1,11 +1,20 @@
-{
-  test: /\.(jpe?g|gif|png|svg)$/i,
-    use[
+module.exports = {
+  module: {
+    rules: [
       {
-        loader: "url-loader",
-        options: {
-          limit: 10000,
-        },
-      }
-    ];
-}
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader", "postcss-loader"],
+      },
+    ],
+  },
+
+  test: /\.(jpe?g|gif|png|svg)$/i,
+  use: [
+    {
+      loader: "url-loader",
+      options: {
+        limit: 10000,
+      },
+    },
+  ],
+};
