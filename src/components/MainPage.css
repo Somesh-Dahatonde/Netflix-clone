@@ -80,6 +80,7 @@
   align-items: center;
   color: #fff;
   padding: 30px;
+  margin-bottom: 2px;
 }
 .tv-content {
   width: 50%;
@@ -108,4 +109,88 @@
   bottom: -47%;
   right: 18.5%;
   width: 26.5%;
+}
+
+/* 2nd */
+
+.moblie-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: black;
+  align-items: center;
+  color: #fff;
+  padding: 50px;
+  margin-bottom: 2px;
+}
+
+.mobile-img-div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mobile-img-div .mobile-img2 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  z-index: 1;
+}
+
+.mobile-content {
+  width: 50%;
+  padding: 30px;
+  height: auto;
+}
+
+.mobile-content h1 {
+  font-size: 4rem;
+  padding-bottom: 10px;
+}
+
+.mobile-content p {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.pc-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: black;
+  align-items: center;
+  color: #fff;
+  padding: 50px;
+  margin-bottom: 2px;
+}
+
+.pc-content {
+  width: 50%;
+  padding: 30px;
+}
+.pc-div h1 {
+  font-size: 4rem;
+  padding-bottom: 10px;
+}
+
+.pc-div p {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+.pc-img-div {
+  width: 50%;
+  position: relative;
+}
+.pc-img-div .pc-img1 {
+  position: relative;
+  width: 550px;
+  z-index: 1;
+}
+
+.pc-img-div .pc-img2 {
+  position: absolute;
+  top: 10%;
+  right: 37%;
 }
