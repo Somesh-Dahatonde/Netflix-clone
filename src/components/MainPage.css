@@ -76,9 +76,11 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  background-color: black;
+  flex-wrap: wrap;
+  width: 100%;
   align-items: center;
   color: #fff;
+  background-color: black;
   padding: 30px;
   margin-bottom: 2px;
 }
@@ -86,17 +88,11 @@
   width: 50%;
   padding: 30px;
 }
-.tv-div h1 {
-  font-size: 4rem;
-  padding-bottom: 10px;
-}
 
-.tv-div p {
-  font-size: 2rem;
-  letter-spacing: 1px;
-}
 .tv-img-div {
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 .tv-img-div .img1 {
   position: relative;
@@ -111,6 +107,15 @@
   width: 26.5%;
 }
 
+.tv-div h1 {
+  font-size: 4rem;
+  padding-bottom: 10px;
+}
+
+.tv-div p {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
 /* 2nd */
 
 .moblie-div {
@@ -122,6 +127,7 @@
   align-items: center;
   color: #fff;
   padding: 50px;
+  flex-wrap: wrap;
   margin-bottom: 2px;
 }
 
@@ -158,6 +164,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   flex-direction: row;
   background-color: black;
   align-items: center;
@@ -193,4 +200,14 @@
   position: absolute;
   top: 10%;
   right: 37%;
+}
+.cartoon-content {
+  width: 50%;
+  padding: 30px;
+}
+.cartoon-content h1 {
+  font-size: 5rem;
+}
+.cartoon-content p {
+  font-size: 2.3rem;
 }

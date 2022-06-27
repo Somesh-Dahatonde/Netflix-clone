@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import QuestionSection from "./QuestionSecton";
 import "./MainPage.css";
 
 const MainPage = () => {
@@ -73,6 +74,22 @@ const MainPage = () => {
             />
           </div>
         </div>
+        <div className="pc-div">
+          <div className="pc-img-div cartoon-img">
+            <img className="cartoon-img1" src="../asset/carttton.png" />
+          </div>
+          <div className="cartoon-content">
+            <h1>Create profiles for children.</h1>
+            <p>
+              Send children on adventures with their favourite characters in a
+              space made just for them—free with your membership.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <QuestionSection />
       </div>
     </>
   );

@@ -13,7 +13,6 @@ function Header(props) {
           <ul>
             <li>
               <select>
-                <span>sd</span>
                 <option>English</option>
                 <option>Marathi</option>
               </select>
