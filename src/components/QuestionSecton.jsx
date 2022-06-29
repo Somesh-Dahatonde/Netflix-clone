@@ -24,7 +24,7 @@ const QuestionSection = () => {
 
         <button
           onClick={() => {
-            let x = document.getElementById("text").style.display;
+            let x = document.querySelector("text").style.display;
             console.log(x);
             if (x === "none") {
               x.style.display = "block";
