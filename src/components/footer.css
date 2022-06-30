@@ -1,0 +1,34 @@
+.main-contener {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(201 196 196 / 38%);
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+}
+.main-contener p {
+  text-align: left;
+  padding: 50px;
+
+  font-size: 18px;
+}
+.faq-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 100px;
+  width: 90%;
+}
+
+.faq-div li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.faq-div li:hover {
+  border-bottom: 1px solid rgb(201 196 196 / 38%);
+}

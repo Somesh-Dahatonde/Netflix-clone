@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import QuestionSection from "./QuestionSecton";
+import Footer from "./Footer";
 import "./MainPage.css";
 
 const MainPage = () => {
@@ -90,6 +91,9 @@ const MainPage = () => {
 
       <div>
         <QuestionSection />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );

@@ -14,7 +14,9 @@ const Question_div = {
   alignItem: "center",
   width: "100%",
   justifyContent: "center",
+  backgroundColor: "black",
   alignItems: "Center",
+  marginBottom: "2px",
 };
 const QuestionSection = () => {
   return (
@@ -22,21 +24,7 @@ const QuestionSection = () => {
       <div style={Question_div}>
         <h1>Frequently Asked Questions</h1>
 
-        <button
-          onClick={() => {
-            let x = document.querySelector("text").style.display;
-            console.log(x);
-            if (x === "none") {
-              x.style.display = "block";
-              console.log(x);
-            } else {
-              x.style.display = "none";
-              console.log(x);
-            }
-          }}
-          style={{ color: "black" }}
-          value=" What is Netflix ? "
-        >
+        <button style={{ color: "black" }} value=" What is Netflix ? ">
           What is Netflix ?
         </button>
         <p id="text" style={{ display: "none" }}>
