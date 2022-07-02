@@ -43,7 +43,6 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          {" "}
           <select>
             <option>English</option>
             <option>Marathi</option>
