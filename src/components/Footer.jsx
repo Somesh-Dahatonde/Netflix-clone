@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div>
+        <div className="lang-select">
           <select>
             <option>English</option>
             <option>Marathi</option>
