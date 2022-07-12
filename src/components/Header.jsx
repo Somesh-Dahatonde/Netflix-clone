@@ -7,7 +7,7 @@ function Header(props) {
       <nav className="nav">
         <div className="logo-div">
           {/* // eslint-disable-next-line */}
-          <img src="../asset/Logo.png" alt="image not rendered" />
+          <img src="../asset/Logo.png" />
         </div>
         <div className="sign-indiv">
           <ul>
