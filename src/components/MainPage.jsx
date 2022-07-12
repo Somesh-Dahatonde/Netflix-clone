@@ -19,17 +19,20 @@ const MainPage = () => {
         <div className="Center-content">
           <h1 className="h1">Unlimited movies, TV shows and more.</h1>
           <p className="h3">Watch anywhere. Cancel anytime.</p>
-          <p className="h6">
-            Ready to watch? Enter your email to create or restart your
-            membership.
-          </p>
+
           <div className="input_div">
-            <input type="email" placeholder="Email address" />
-            <button className="get-stated-button">Get Started</button>
+            <p className="h6">
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </p>
+            <div>
+              <input type="email" placeholder="Email address" />
+              <button className="get-stated-button">Get Started</button>
+            </div>
           </div>
         </div>
       </div>
-      <div>
+      <div className="content-data-div">
         <div className="tv-div">
           <div className="tv-content">
             <h1>Enjoy on your TV.</h1>
