@@ -83,7 +83,7 @@
   background-color: black;
   align-items: center;
   color: #fff;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
   padding: 60px;
 }
 .tv-content {
@@ -131,7 +131,7 @@
   color: #fff;
   padding: 50px;
   /* flex-wrap: wrap; */
-  margin-bottom: 2px;
+  margin-bottom: 10px;
   padding: 30px;
 }
 
@@ -173,7 +173,7 @@
   align-items: center;
   color: #fff;
   padding: 50px;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
 }
 
 .pc-content {
